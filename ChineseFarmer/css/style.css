@@ -1,0 +1,82 @@
+.fonter {
+    margin: 80px;
+    text-align: center;
+    font-size: 160%;
+    border-left: 3px solid firebrick;
+    padding: 30px;
+    font-style: italic;
+    
+    background-color: lightgray;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+    background: -webkit-radial-gradient(rgba(149, 154, 0, 0.8), rgba(126, 0, 110, 0.8)),url("https://img.freepik.com/free-photo/top-view-tasty-italian-pasta-with-raw-pasta-white-background_140725-136639.jpg?w=2000")no-repeat bottom right;
+    background-size: cover;
+}
+
+.fermier {
+    border-style: solid;
+    border-left-color: purple;
+    font-style: italic;
+}
+
+.villageois {
+    border-style: solid;
+    border-left-color: orange;
+    font-style: italic;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+
+tr:nth-child(odd) {
+    background: #aaa;
+}
+
+.thumbup {
+    background: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/bien.png?token=GHSAT0AAAAAABWFZZLGM4Z5J2VHII7KNFC2YWEIFRA") no-repeat center;
+    background-position-x: 250px;
+    background-size: contain;
+}
+
+.thumbdown {
+    background: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/mal.png?token=GHSAT0AAAAAABWFZZLHID4SIEEZNFAINPKQYWEISFA") no-repeat center;
+    background-position-x: 245px;
+    background-size: contain;
+}
+
+.kitty {
+    background: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/chat.png?token=GHSAT0AAAAAABWFZZLHY3CQLNMA3AHPUWZYYWEIUDQ") no-repeat center;
+    background-position-x: 240px;
+    background-size: contain;
+}
+
+.notification{
+    background:orange;
+    padding:.5rem 1rem;
+    border:3px solid rgb(67, 120, 189);
+    width:85px;
+    font-weight:bold;
+    color: #0b520e;
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+  }
+
+  html {
+    font-family: 'Open Sans', sans-serif;
+  }
