@@ -85,11 +85,6 @@ tr:nth-child(odd) {
     float: left;
 }
 
-.imagefloatcenter {
-    position: fixed;
-    left:0px;
-}
-
 .imagefloatright {
     float: right;
 }
