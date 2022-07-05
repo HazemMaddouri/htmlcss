@@ -80,3 +80,16 @@ tr:nth-child(odd) {
   html {
     font-family: 'Open Sans', sans-serif;
   }
+
+.imagefloatleft {
+    float: left;
+}
+
+.imagefloatcenter {
+    position: fixed;
+    left:0px;
+}
+
+.imagefloatright {
+    float: right;
+}
