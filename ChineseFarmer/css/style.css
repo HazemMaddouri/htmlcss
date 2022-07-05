@@ -81,10 +81,8 @@ tr:nth-child(odd) {
     font-family: 'Open Sans', sans-serif;
   }
 
-.imagefloatleft {
-    float: left;
-}
 
 .imagefloatright {
     float: right;
+    margin-left: 15px;
 }
